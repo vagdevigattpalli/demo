@@ -1,38 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Title</title>
+<title>TAble</title>
 <style>
-table{
-border: 2px solid black;
-  outline: #4CAF50 solid 10px;
+	table{
+		 border: 2px solid yellow;
+  outline: yellow solid 10px;
   margin: auto;  
   padding: 20px;
   text-align: center;
-border:3px solid#CCC
+		
+	}
+	
+	#customers {
+  font-family: italic
+  border-collapse: collapse;
+  width: 100%;
 }
-table td,table th{
-padding:5px;
-border:1px solid #CCC
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: green;
+  color: white;
 }
-table th{
-padding:10px;
+#customers td, #customers th {
+  border: 1px solid blue;
+  padding: 8px;
 }
 </style>
 </head>
 <body>
-<table border="0" border-width="0" border-collapse="collapse">
-<tr>
-<th>
-wt
-</th>
-<td>
-90
-</td>
-</tr>
-<tr>
-<th>oops</th>
-<td>91</td>
+
+<table id="customers"> 
+	<tr>
+		<th> 
+			cn
+		</th>
+		<td style="text-align:right;"> 
+			100
+		</td>
+		
+	</tr>
+	<tr>
+		<th>DMT</th>
+		<td style="text-align:right;">94</td>
+		
+	</tr>
+	<tr>
+		<th>SE</th>
+		
+		<td style="text-align:right;">100</td>
+	</tr>
 </table>
+
 </body>
 </html>
